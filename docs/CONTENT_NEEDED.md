@@ -5,7 +5,7 @@ The website layout is selected and implemented. All supplied portraits are corre
 For each of Charlene Brown, Shirley Ann Felder, Clavia Allen, Marcy Trueheart and Karon Fayerweather:
 
 - Final approved bio.
-- Full reason and purpose behind the album, in her own words. Paragraph breaks are supported; text is not shortened automatically.
+- Purpose statements received for all five women. Charlene’s edited statement needs her review; remaining statements preserved as supplied. Confirm final page presentation with the other content.
 - Notes/stories about the two featured songs.
 - Exact released album and song titles and final presentation order.
 - Spotify, Apple Music, YouTube Music and Amazon Music album links. Confirm a deliberately unavailable platform rather than inventing a link.
@@ -25,3 +25,5 @@ Shared:
 - Final editorial approval and requested public-release timing.
 
 Digital Flagship has no trademark symbol. Keep the correct marks for Brand Misfit™ Media and Cre8ive Naturalista™. Do not infer that every songwriter performs the recorded vocals.
+
+Editorial checks from received copy: Shirley Ann’s statement spells Karon as “Karan”; preserved verbatim pending correction approval. Clavia calls the album “Chosen31” while the existing album label is “CHOSEN”; confirm the exact released title before changing album metadata.
