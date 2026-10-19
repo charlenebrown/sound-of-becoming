@@ -19,7 +19,22 @@ for(const p of profiles){
  for(let i=0;i<2;i++){values['SONG_'+i]=esc(p.songs?.[i]);values['SONG_STORY_'+i]=paragraphs(p.songStories?.[i],'Her notes on this song will appear here.');}
  fs.writeFileSync(path.join(root,p.slug+'.html'),finish(fs.readFileSync(path.join(root,'templates',p.slug+'.html'),'utf8'),values));
 }
-const homeValues={REVIEW_BANNER:banner};for(const p of profiles)if(p.album)homeValues['ALBUM_'+p.slug]=esc(p.album);
+const programVisible=site.programVisible===true;
+const programSection=programVisible?'<section class="program-section" id="program"><div><p class="eyebrow">THE EVENING</p><h2>The evening<br>unfolds.</h2><p>Five stories. A shared soundtrack.</p></div><div><a class="button" href="program.html">View the evening program ↗</a></div></section>':'';
+const homeValues={REVIEW_BANNER:banner,PROGRAM_SECTION:programSection,PROGRAM_DOWNLOAD_LINK:programVisible?'<a class="button secondary" href="program.html">The evening program ↗</a>':''};for(const p of profiles)if(p.album)homeValues['ALBUM_'+p.slug]=esc(p.album);
 fs.writeFileSync(path.join(root,'index.html'),finish(fs.readFileSync(path.join(root,'templates/index.html'),'utf8'),homeValues));
 fs.writeFileSync(path.join(root,'event-data.js'),'window.EVENT_DATA = '+JSON.stringify({downloadUrls:site.downloadUrls,people:profiles},null,2)+';\n');
 console.log('Built selected website: home + '+profiles.length+' profiles. Publication: OFF.');
+
+const programPath=path.join(root,'program.html');
+const pdfPath=path.join(root,'downloads','Sound of Becoming Event Program.pdf');
+if(site.programVisible===true){
+ let program=fs.readFileSync(path.join(root,'templates/program.html'),'utf8');
+ if(publicReady)program=program.replace('<meta name="robots" content="noindex,nofollow">','');
+ fs.writeFileSync(programPath,program);
+ const source=path.join(root,'content','program.pdf');
+ if(fs.existsSync(source)){fs.mkdirSync(path.dirname(pdfPath),{recursive:true});fs.copyFileSync(source,pdfPath);}
+}else{
+ fs.writeFileSync(programPath,'<!doctype html><html lang="en"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="robots" content="noindex,nofollow"><title>The circle continues</title><body><main><h1>The circle continues.</h1><p>The event program is no longer available.</p><a href="index.html">Explore the stories and keepsake</a></main></body></html>');
+ if(fs.existsSync(pdfPath))fs.unlinkSync(pdfPath);
+}
