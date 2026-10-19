@@ -21,3 +21,11 @@ body.becoming-journal::before{background-image:url("assets/sound-rings-clay.svg"
 .becoming-journal .profile-title::after,.becoming-journal .journal-intro::after{opacity:.13}
 @media(max-width:850px){.album-access{grid-template-columns:1fr;gap:20px}.album-access .platform-links{grid-template-columns:repeat(4,1fr)}}
 @media(max-width:600px){body:not(.studio)::before{background-size:1000px 1000px;background-position:calc(100% + 485px) 260px;opacity:.075}.album-access{padding:28px 6% 32px;gap:20px}.album-access h2{font-size:30px}.album-access .platform-links{grid-template-columns:1fr 1fr;gap:8px 18px}.profile-title::after,.hero-copy::after,.journal-intro::after{opacity:.07;top:37%}}
+
+/* Sample waveforms remain still until audio is actually playing. */
+.song-grid .waveform{display:flex;align-items:center;justify-content:center;gap:4px;height:66px;overflow:hidden}
+.song-grid .waveform i{display:block;flex:0 1 5px;min-width:2px;height:var(--bar-height);background:currentColor;border-radius:5px;transform:scaleY(.38);transform-origin:center;opacity:.65}
+.song-grid .sample-is-playing .waveform i{animation:sample-wave var(--bar-speed) ease-in-out var(--bar-delay) infinite alternate}
+.sample-controls{display:flex;flex-wrap:wrap;align-items:center;gap:12px;margin-top:20px}.sample-controls button{font:inherit;cursor:pointer}.sample-controls button:disabled{opacity:.6;cursor:default}.sample-status{font-size:13px}.sample-play:focus-visible{outline:3px solid currentColor;outline-offset:4px}
+@keyframes sample-wave{from{transform:scaleY(.25);opacity:.45}to{transform:scaleY(1);opacity:1}}
+@media(prefers-reduced-motion:reduce){.song-grid .sample-is-playing .waveform i{animation:none;transform:scaleY(.8);opacity:1}}

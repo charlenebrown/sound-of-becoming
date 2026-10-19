@@ -10,7 +10,7 @@ window.EVENT_DATA = {
       "album": "Digital Flagship",
       "songs": [
         "Calm Before the Breach",
-        "Blue Red"
+        "Blue / Red"
       ],
       "bio": "Charlene Brown, known as da Tech Conjurer™, is a Songwriter and Digital Music Creator and a Creative Consultant with Brand Misfit™ Media. She brings more than 20 years across tech, brand strategy, and digital communications, along with experience as a Creative Director and Project Manager, to everything she makes. That means a song goes from concept to lyrics to sound to finished release with intention at every step. Brooklyn-rooted and Miami-raised by Caribbean parents, she brings culture, humor, and straight talk to every room. Her work turns brand philosophy into songs people feel. Her rule: clarity creates better choices, so lead with tech and never be led by it.",
       "songStories": [
@@ -34,7 +34,11 @@ window.EVENT_DATA = {
       "albumTitleConfirmed": false,
       "songTitlesConfirmed": false,
       "services": null,
-      "purposeStatus": "Received; Charlene edited for flow"
+      "purposeStatus": "Received; Charlene edited for flow",
+      "sampleUrls": [
+        "",
+        ""
+      ]
     },
     {
       "slug": "shirley-ann-felder",
@@ -66,7 +70,11 @@ window.EVENT_DATA = {
       "albumTitleConfirmed": false,
       "songTitlesConfirmed": false,
       "services": null,
-      "purposeStatus": "Received verbatim; paragraph formatting normalized"
+      "purposeStatus": "Received verbatim; paragraph formatting normalized",
+      "sampleUrls": [
+        "",
+        ""
+      ]
     },
     {
       "slug": "clavia-allen",
@@ -98,7 +106,11 @@ window.EVENT_DATA = {
       "albumTitleConfirmed": false,
       "songTitlesConfirmed": false,
       "services": null,
-      "purposeStatus": "Received verbatim; paragraph formatting normalized"
+      "purposeStatus": "Received verbatim; paragraph formatting normalized",
+      "sampleUrls": [
+        "",
+        ""
+      ]
     },
     {
       "slug": "marcy-trueheart",
@@ -130,7 +142,11 @@ window.EVENT_DATA = {
       "albumTitleConfirmed": false,
       "songTitlesConfirmed": false,
       "services": null,
-      "purposeStatus": "Received verbatim; paragraph formatting normalized"
+      "purposeStatus": "Received verbatim; paragraph formatting normalized",
+      "sampleUrls": [
+        "",
+        ""
+      ]
     },
     {
       "slug": "karon-fayerweather",
@@ -162,7 +178,11 @@ window.EVENT_DATA = {
       "albumTitleConfirmed": false,
       "songTitlesConfirmed": false,
       "services": null,
-      "purposeStatus": "Received verbatim; paragraph formatting normalized"
+      "purposeStatus": "Received verbatim; paragraph formatting normalized",
+      "sampleUrls": [
+        "",
+        ""
+      ]
     },
     {
       "slug": "sanah-bittaye-mitchell",
