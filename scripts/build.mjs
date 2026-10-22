@@ -6,6 +6,8 @@ const profiles=JSON.parse(fs.readFileSync(path.join(root,'content/profiles.json'
 const site=JSON.parse(fs.readFileSync(path.join(root,'content/site.json'),'utf8'));
 const esc=value=>String(value??'').replaceAll('&','&amp;').replaceAll('<','&lt;').replaceAll('>','&gt;').replaceAll('"','&quot;').replaceAll("'",'&#x27;');
 const paragraphs=(value,fallback)=>String(value||fallback).split(/\n\s*\n/).filter(Boolean).map(v=>`<p${value?'':' class="placeholder-copy"'}>${esc(v).replaceAll('\n','<br>')}</p>`).join('');
+const inline=value=>esc(value).replace(/\*\*(.+?)\*\*/g,'<strong>$1</strong>').replace(/(?<!\*)\*([^*]+)\*(?!\*)/g,'<em>$1</em>');
+const richParagraphs=value=>String(value||'').split(/\n\s*\n/).filter(Boolean).map(v=>'<p>'+inline(v).replaceAll('\n','<br>')+'</p>').join('');
 const publicReady=site.publishReady===true&&site.approved===true&&profiles.every(p=>p.approved===true);
 const banner=publicReady?'':'<div class="review-strip">PRIVATE WORKING DRAFT · Final profile content and links pending</div>';
 function finish(template,values){
@@ -14,7 +16,8 @@ function finish(template,values){
  return html;
 }
 for(const p of profiles){
- const values={REVIEW_BANNER:banner,BIO:esc(p.bio||'Sanah’s approved biography will appear here.'),BIO_STATUS:p.approved?'':'<p class="small review-note">Biography shown as a layout draft.<br>Final copy and links are pending.</p>',PURPOSE:paragraphs(p.album?p.purpose:p.services,p.album?'Her full reason and purpose statement will appear here in her own words.':'Sanah’s approved collaboration details will appear here.'),PURPOSE_STATUS:(p.album?p.purpose:p.services)?'':'<span class="draft-tag">Awaiting her final statement</span>',ALBUM:esc(p.album),SONG_STATUS:p.songTitlesConfirmed?'':'<small>Song titles and presentation awaiting final confirmation.</small>'};
+ const values={REVIEW_BANNER:banner,BIO:richParagraphs(p.bioMarkdown||p.bio||'Sanah’s approved biography will appear here.'),BIO_STATUS:(p.approved||p.bioApproved)?'':'<p class="small review-note">Biography shown as a layout draft.<br>Final copy and links are pending.</p>',PURPOSE:paragraphs(p.album?p.purpose:p.services,p.album?'Her full reason and purpose statement will appear here in her own words.':'Sanah’s approved collaboration details will appear here.'),PURPOSE_STATUS:(p.album?p.purpose:p.services)?'':'<span class="draft-tag">Awaiting her final statement</span>',ALBUM:esc(p.album),SONG_STATUS:p.songTitlesConfirmed?'':'<small>Song titles and presentation awaiting final confirmation.</small>'};
+ values.CONNECT_LINKS=(p.connections||[]).map(c=>{let u;try{u=new URL(c.url)}catch{return ''}if(!['https:','mailto:'].includes(u.protocol))return '';return '<a class="button" href="'+esc(c.url)+'">'+esc(c.label)+' ↗</a>'}).join('');
  values.PORTRAIT=p.portrait?`<img src="assets/${esc(p.portrait)}" alt="${esc(p.name)}" loading="lazy">`:'<div class="portrait-placeholder" role="img" aria-label="Sanah headshot to be supplied"><span>SBM</span><small>Her portrait, coming soon</small></div>';
  for(let i=0;i<2;i++){values['SONG_'+i]=esc(p.songs?.[i]);values['SONG_STORY_'+i]=paragraphs(p.songStories?.[i],'Her notes on this song will appear here.');}
  fs.writeFileSync(path.join(root,p.slug+'.html'),finish(fs.readFileSync(path.join(root,'templates',p.slug+'.html'),'utf8'),values));

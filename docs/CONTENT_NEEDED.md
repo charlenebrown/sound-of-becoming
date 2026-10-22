@@ -14,7 +14,7 @@ For each of Charlene Brown, Shirley Ann Felder, Clavia Allen, Marcy Trueheart an
 
 For Sanah Bittaye Mitchell:
 
-- Headshot, approved bio, how to work with her, and her main website or platform URL.
+- Headshot, formatted bio, collaboration details, website and email received. Final producer-page presentation review remains.
 - Approval of the completed producer page. No album, songs or streaming links required.
 
 Shared:
@@ -27,3 +27,7 @@ Shared:
 Digital Flagship has no trademark symbol. Keep the correct marks for Brand Misfit™ Media and Cre8ive Naturalista™. Do not infer that every songwriter performs the recorded vocals.
 
 Editorial checks from received copy: Shirley Ann’s statement spells Karon as “Karan”; preserved verbatim pending correction approval. Clavia calls the album “Chosen31” while the existing album label is “CHOSEN”; confirm the exact released title before changing album metadata.
+
+Received connections: Charlene — https://bklyncustomdesigns.com and https://bklyncustomdesigns.com/linkedin. Sanah — https://savvysanah.com/ and mailto:Sanah@savvyedutainment.com.
+
+Album links must appear on each songwriter’s individual keepsake page(s) as well as both website album sections; the separate directory is supplementary.

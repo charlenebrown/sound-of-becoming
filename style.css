@@ -33,3 +33,5 @@ body.becoming-journal::before{background-image:url("assets/sound-rings-clay.svg"
 .platform-links .platform-icon{width:25px;height:25px;object-fit:contain;flex-shrink:0}.platform-links a,.platform-links .platform-pending{display:flex;align-items:center;gap:12px}.platform-links .platform-pending{padding:16px;border-bottom:1px solid currentColor;opacity:.58}.platform-pending small{display:block;font-size:12px}.platform-search-note{font-size:14px;line-height:1.65;max-width:750px;margin-top:18px}.listening-room .platform-icon,.record-collection .platform-icon{filter:invert(96%) sepia(9%) saturate(473%) hue-rotate(340deg) brightness(99%)}
 
 .platform-links .platform-label,.platform-links .platform-pending>span{font-size:13px;opacity:1;margin:0}.platform-links .platform-pending small{font-size:11px;opacity:.8}
+
+.profile-portrait img[alt="Sanah Bittaye Mitchell"]{object-position:center top}

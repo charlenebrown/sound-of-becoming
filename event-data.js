@@ -21,7 +21,7 @@ window.EVENT_DATA = {
       "portrait": "charlene-brown.webp",
       "role": "Songwriter",
       "purpose": "Music has always been a consistent thread in my life. Over the years, I’ve connected it with ideas that may seem off the beaten path but speak to experiences so many of us share. I had stories, insights, and hopes I wanted to express that didn’t fit naturally into my training, client work, or the books I’ve written.\n\nThis project gave those thoughts another way to be heard. By bringing my words together with rhythm and feeling, I could share my experiences and hopes through the connection only music can create—one that reaches our core and speaks to our spirit. This album is another way for me to tell my story and connect with the people who hear a piece of their own lives in it.",
-      "connectUrl": "",
+      "connectUrl": "https://bklyncustomdesigns.com",
       "listen": {
         "Spotify": "https://open.spotify.com/album/3L3oNA8tklKclo8Op4kSxf",
         "Apple Music": "https://music.apple.com/us/album/digital-flagship/6818079103",
@@ -51,7 +51,17 @@ window.EVENT_DATA = {
         "iHeart": "Catalog matched; playback availability depends on region/account",
         "Pandora": "Direct album link not verified",
         "TIDAL": "Direct album identified"
-      }
+      },
+      "connections": [
+        {
+          "label": "Website · Bklyn Custom Designs®",
+          "url": "https://bklyncustomdesigns.com"
+        },
+        {
+          "label": "LinkedIn",
+          "url": "https://bklyncustomdesigns.com/linkedin"
+        }
+      ]
     },
     {
       "slug": "shirley-ann-felder",
@@ -254,14 +264,14 @@ window.EVENT_DATA = {
       "name": "Sanah Bittaye Mitchell",
       "album": null,
       "songs": [],
-      "bio": "",
-      "portrait": null,
+      "bio": "AI, Systems & Visibility Strategist | Live Experience Producer\n\nYou bring the vision. Savvy Sanah brings the creativity, tech skills, and “let’s make this happen” energy.\n\nSanah helps creators and entrepreneurs turn their brilliance into something people can see, experience, and buy. Her skills span AI images, videos, and content; branded websites and apps; sales funnels; and automations that keep business moving behind the scenes.\n\nDuring live virtual experiences, she brings structure to the moving parts—coordinating speakers, managing screen sharing and media, supporting attendees, troubleshooting technology, and keeping the program flowing. Her goal: help hosts feel supported, guests stay engaged, and the vision come to life.\n\nAs founder of Savvy Edutainment Enterprises and Trinigam Technology Group, Sanah pairs creative thinking with hands-on technical skills to help you build, launch, and show up with confidence so that you can Focus. Finish. Then Flex.™\n\nHave an idea you’re ready to bring to life—or a live experience you need help producing? Let’s turn “Can this be done?” into “Look what we created!”",
+      "portrait": "sanah-bittaye-mitchell.webp",
       "role": "Event Producer",
       "purpose": "",
-      "connectUrl": "",
-      "services": "",
+      "connectUrl": "https://savvysanah.com/",
+      "services": "AI images, videos, and content; branded websites and apps; sales funnels; automations; live virtual experience production.",
       "listen": {},
-      "status": "Awaiting headshot, bio, collaboration details and link",
+      "status": "Bio, headshot and contact links received; final page review pending",
       "index": 6,
       "approved": false,
       "songStories": [
@@ -269,7 +279,21 @@ window.EVENT_DATA = {
         ""
       ],
       "albumTitleConfirmed": null,
-      "songTitlesConfirmed": null
+      "songTitlesConfirmed": null,
+      "bioMarkdown": "*AI, Systems & Visibility Strategist | Live Experience Producer*\n\nYou bring the vision. Savvy Sanah brings the creativity, tech skills, and “let’s make this happen” energy.\n\nSanah helps creators and entrepreneurs turn their brilliance into something people can see, experience, and buy. Her skills span AI images, videos, and content; branded websites and apps; sales funnels; and automations that keep business moving behind the scenes.\n\nDuring live virtual experiences, she brings structure to the moving parts—coordinating speakers, managing screen sharing and media, supporting attendees, troubleshooting technology, and keeping the program flowing. Her goal: help hosts feel supported, guests stay engaged, and the vision come to life.\n\nAs founder of Savvy Edutainment Enterprises and Trinigam Technology Group, Sanah pairs creative thinking with hands-on technical skills to help you build, launch, and show up with confidence so that you can *Focus. Finish. Then Flex.™*\n\n**Have an idea you’re ready to bring to life—or a live experience you need help producing? Let’s turn “Can this be done?” into “Look what we created!”**",
+      "bioApproved": true,
+      "brand": "Savvy Sanah",
+      "servicesIncludedInBio": true,
+      "connections": [
+        {
+          "label": "Website · SavvySanah.com",
+          "url": "https://savvysanah.com/"
+        },
+        {
+          "label": "Email · Sanah@savvyedutainment.com",
+          "url": "mailto:Sanah@savvyedutainment.com"
+        }
+      ]
     }
   ]
 };
