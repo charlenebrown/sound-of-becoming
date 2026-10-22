@@ -29,3 +29,7 @@ body.becoming-journal::before{background-image:url("assets/sound-rings-clay.svg"
 .sample-controls{display:flex;flex-wrap:wrap;align-items:center;gap:12px;margin-top:20px}.sample-controls button{font:inherit;cursor:pointer}.sample-controls button:disabled{opacity:.6;cursor:default}.sample-status{font-size:13px}.sample-play:focus-visible{outline:3px solid currentColor;outline-offset:4px}
 @keyframes sample-wave{from{transform:scaleY(.25);opacity:.45}to{transform:scaleY(1);opacity:1}}
 @media(prefers-reduced-motion:reduce){.song-grid .sample-is-playing .waveform i{animation:none;transform:scaleY(.8);opacity:1}}
+
+.platform-links .platform-icon{width:25px;height:25px;object-fit:contain;flex-shrink:0}.platform-links a,.platform-links .platform-pending{display:flex;align-items:center;gap:12px}.platform-links .platform-pending{padding:16px;border-bottom:1px solid currentColor;opacity:.58}.platform-pending small{display:block;font-size:12px}.platform-search-note{font-size:14px;line-height:1.65;max-width:750px;margin-top:18px}.listening-room .platform-icon,.record-collection .platform-icon{filter:invert(96%) sepia(9%) saturate(473%) hue-rotate(340deg) brightness(99%)}
+
+.platform-links .platform-label,.platform-links .platform-pending>span{font-size:13px;opacity:1;margin:0}.platform-links .platform-pending small{font-size:11px;opacity:.8}

@@ -8,7 +8,7 @@ For each of Charlene Brown, Shirley Ann Felder, Clavia Allen, Marcy Trueheart an
 - Purpose statements received for all five women. Charlene’s edited statement needs her review; remaining statements preserved as supplied. Confirm final page presentation with the other content.
 - Notes/stories about the two featured songs.
 - Exact released album and song titles and final presentation order.
-- Spotify, Apple Music, YouTube Music and Amazon Music album links. Confirm a deliberately unavailable platform rather than inventing a link.
+- Album links researched and populated where identified. Remaining: Spotify for Chosen and Boldly Becoming Her; iHeart and TIDAL for Chosen; Pandora for all five. These are unverified, not confirmed unavailable. See ALBUM_LINK_DIRECTORY.md.
 - One preferred website/social URL for learning more or working with her.
 - Approval of her completed page.
 

@@ -1,0 +1,137 @@
+[
+  {
+    "slug": "charlene-brown",
+    "album": "Digital Flagship",
+    "recordingArtist": "Cre8ive Naturalista",
+    "links": {
+      "Spotify": "https://open.spotify.com/album/3L3oNA8tklKclo8Op4kSxf",
+      "Apple Music": "https://music.apple.com/us/album/digital-flagship/6818079103",
+      "Amazon Music": "https://music.amazon.com/albums/B0HLQ4WFNF",
+      "YouTube Music": "https://music.youtube.com/playlist?list=OLAK5uy_m6LmiZHxxGSJUvakuBtVJz7CEN1a2WyY0",
+      "iHeart": "https://www.iheart.com/artist/cre8ive-naturalista-50558461/albums/digital-flagship-436813654/",
+      "Pandora": "",
+      "TIDAL": "https://tidal.com/album/566117977"
+    },
+    "status": {
+      "Spotify": "Direct album identified",
+      "Apple Music": "Direct album identified",
+      "Amazon Music": "Direct album identified",
+      "YouTube Music": "Direct album identified",
+      "iHeart": "Catalog matched; playback availability depends on region/account",
+      "Pandora": "Direct album link not verified",
+      "TIDAL": "Direct album identified"
+    },
+    "sources": [
+      "https://album.link/i/6818079103",
+      "https://www.youtube.com/watch?v=82b0ziEu5g8"
+    ]
+  },
+  {
+    "slug": "shirley-ann-felder",
+    "album": "Ordinary Greatness",
+    "recordingArtist": "Shirley Ann Felder",
+    "links": {
+      "Spotify": "https://open.spotify.com/album/65uZz2vU9lqyZZIKUQkk3w",
+      "Apple Music": "https://music.apple.com/us/album/ordinary-greatness/6811675391",
+      "Amazon Music": "https://music.amazon.com/albums/B0HJP1B3Q9",
+      "YouTube Music": "https://music.youtube.com/playlist?list=OLAK5uy_lHAV8-0ipCey2Fi2_uRghllFpDma1lwhw",
+      "iHeart": "https://www.iheart.com/artist/shirley-ann-felder-52319569/albums/ordinary-greatness-432306083/",
+      "Pandora": "",
+      "TIDAL": "https://tidal.com/album/560917603"
+    },
+    "status": {
+      "Spotify": "Direct album identified",
+      "Apple Music": "Direct album identified",
+      "Amazon Music": "Direct album identified",
+      "YouTube Music": "Direct album identified",
+      "iHeart": "Catalog matched; playback availability depends on region/account",
+      "Pandora": "Direct album link not verified",
+      "TIDAL": "Direct album identified"
+    },
+    "sources": [
+      "https://album.link/i/6811675391",
+      "https://www.youtube.com/watch?v=vflZxEb16dA"
+    ]
+  },
+  {
+    "slug": "clavia-allen",
+    "album": "CHOSEN",
+    "recordingArtist": "Chosen31",
+    "links": {
+      "Spotify": "",
+      "Apple Music": "https://music.apple.com/us/album/chosen/6811505477",
+      "Amazon Music": "https://music.amazon.com/albums/B0HJNF876D",
+      "YouTube Music": "https://music.youtube.com/playlist?list=OLAK5uy_kPYx-uRcRyJvbsfQGMxzvelvo1dgPboA8",
+      "iHeart": "",
+      "Pandora": "",
+      "TIDAL": ""
+    },
+    "status": {
+      "Spotify": "Direct album link not verified",
+      "Apple Music": "Direct album identified",
+      "Amazon Music": "Direct album identified",
+      "YouTube Music": "Direct album identified",
+      "iHeart": "Direct album link not verified",
+      "Pandora": "Direct album link not verified",
+      "TIDAL": "Direct album link not verified"
+    },
+    "sources": [
+      "https://album.link/i/6811505477",
+      "https://www.youtube.com/watch?v=Y5puQZXI1FU"
+    ]
+  },
+  {
+    "slug": "marcy-trueheart",
+    "album": "Birthright Alignment",
+    "recordingArtist": "Marcy Trueheart",
+    "links": {
+      "Spotify": "https://open.spotify.com/album/0U5jSC23qcgeD4ascm1Vwi",
+      "Apple Music": "https://music.apple.com/us/album/birthright-alignment/6813880416",
+      "Amazon Music": "https://music.amazon.com/albums/B0HKCTJPMD",
+      "YouTube Music": "https://music.youtube.com/playlist?list=OLAK5uy_kv40HxroBXkfdb0XjWz4YLeC2es2t72xw",
+      "iHeart": "https://www.iheart.com/artist/marcy-trueheart-52414615/albums/birthright-alignment-433701774/",
+      "Pandora": "",
+      "TIDAL": "https://tidal.com/album/562477398"
+    },
+    "status": {
+      "Spotify": "Direct album identified",
+      "Apple Music": "Direct album identified",
+      "Amazon Music": "Direct album identified",
+      "YouTube Music": "Direct album identified",
+      "iHeart": "Catalog matched; playback availability depends on region/account",
+      "Pandora": "Direct album link not verified",
+      "TIDAL": "Direct album identified"
+    },
+    "sources": [
+      "https://album.link/i/6813880416",
+      "https://www.youtube.com/watch?v=jBg8BMvgCcE"
+    ]
+  },
+  {
+    "slug": "karon-fayerweather",
+    "album": "Boldly Becoming Her",
+    "recordingArtist": "Boldly Becoming Her",
+    "links": {
+      "Spotify": "",
+      "Apple Music": "https://music.apple.com/us/album/boldly-becoming-her/6814280842",
+      "Amazon Music": "https://music.amazon.com/albums/B0HKG47V5C",
+      "YouTube Music": "https://music.youtube.com/playlist?list=OLAK5uy_mSe3cMkGo3qN5VvEJgj_kArvEsSojWHEE",
+      "iHeart": "https://www.iheart.com/artist/boldly-becoming-her-52439058/albums/boldly-becoming-her-434038377/",
+      "Pandora": "",
+      "TIDAL": "https://tidal.com/album/562828783"
+    },
+    "status": {
+      "Spotify": "Direct album link not verified",
+      "Apple Music": "Direct album identified",
+      "Amazon Music": "Direct album identified",
+      "YouTube Music": "Direct album identified",
+      "iHeart": "Catalog matched; playback availability depends on region/account",
+      "Pandora": "Direct album link not verified",
+      "TIDAL": "Direct album identified"
+    },
+    "sources": [
+      "https://album.link/i/6814280842",
+      "https://www.youtube.com/watch?v=HQn-4iOU7zY"
+    ]
+  }
+]
