@@ -35,7 +35,7 @@ window.EVENT_DATA = {
       "index": 1,
       "approved": false,
       "albumTitleConfirmed": false,
-      "songTitlesConfirmed": false,
+      "songTitlesConfirmed": true,
       "services": null,
       "purposeStatus": "Received; Charlene edited for flow",
       "sampleUrls": [
@@ -94,7 +94,7 @@ window.EVENT_DATA = {
       "index": 2,
       "approved": false,
       "albumTitleConfirmed": false,
-      "songTitlesConfirmed": false,
+      "songTitlesConfirmed": true,
       "services": null,
       "purposeStatus": "Received verbatim; paragraph formatting normalized",
       "sampleUrls": [
@@ -113,7 +113,7 @@ window.EVENT_DATA = {
       },
       "connections": [
         {
-          "label": "Facebook",
+          "label": "Let’s connect on Facebook",
           "url": "https://bklyncustomdesigns.com/shirley-ann-facebook"
         }
       ]
@@ -146,7 +146,7 @@ window.EVENT_DATA = {
       "index": 3,
       "approved": false,
       "albumTitleConfirmed": false,
-      "songTitlesConfirmed": false,
+      "songTitlesConfirmed": true,
       "services": null,
       "purposeStatus": "Received verbatim; paragraph formatting normalized",
       "sampleUrls": [
@@ -162,7 +162,7 @@ window.EVENT_DATA = {
       },
       "connections": [
         {
-          "label": "Website",
+          "label": "Website ∙ Clavia Allen",
           "url": "https://bklyncustomdesigns.com/clavia-website"
         }
       ]
@@ -198,7 +198,7 @@ window.EVENT_DATA = {
       "index": 4,
       "approved": false,
       "albumTitleConfirmed": false,
-      "songTitlesConfirmed": false,
+      "songTitlesConfirmed": true,
       "services": null,
       "purposeStatus": "Received verbatim; paragraph formatting normalized",
       "sampleUrls": [
@@ -218,7 +218,7 @@ window.EVENT_DATA = {
       "keepsakePurpose": "My why is legacy. This album turns my experiences, emotions, and spiritual connections into music—to honor my ancestors, celebrate sisterhood, express my love for my grandson, and honor the healing process. Every song carries a piece of my heart.\n\nI stand on the shoulders of those who came before me, and I want future generations to stand on mine. Through my obedience to God and connection with the universe, I’m planting seeds of love, joy, peace, healing, and service. I want my grandson and generations to come to hear these songs and know who I was, what I believed, and how deeply I loved.",
       "connections": [
         {
-          "label": "Instagram",
+          "label": "Let’s connect on Instagram",
           "url": "https://bklyncustomdesigns.com/marcy-instagram"
         }
       ]
@@ -229,7 +229,7 @@ window.EVENT_DATA = {
       "album": "Boldly Becoming Her",
       "songs": [
         "Center of My Own Life",
-        "Cape Burning"
+        "The Cape Burning"
       ],
       "bio": "Karon Fayerweather is a women’s empowerment speaker, coach, two-time bestselling author, and the lyricist and creative visionary behind the album Boldly Becoming Her. Drawing on her own experience of rebuilding in midlife, she helps women—especially Black women—reclaim who they are, make deliberate choices, and create room for the life they want now through her Her Bold Second Act™ framework. Her album carries that message into music, giving voice to the tenderness, courage, and uncertainty of healing and beginning again. With honesty, warmth, and conviction, she reminds women that their next chapter deserves more than their endurance—it deserves their presence.",
       "songStories": [
@@ -254,7 +254,7 @@ window.EVENT_DATA = {
       "index": 5,
       "approved": false,
       "albumTitleConfirmed": false,
-      "songTitlesConfirmed": false,
+      "songTitlesConfirmed": true,
       "services": null,
       "purposeStatus": "Received verbatim; paragraph formatting normalized",
       "sampleUrls": [
@@ -274,7 +274,7 @@ window.EVENT_DATA = {
       "keepsakePurpose": "Boldly Becoming Her is personal. These songs hold experiences I’ve lived, lessons I’m still understanding, and words I needed to hear. They also reflect how I lead and coach other women, especially Black women in midlife.\n\nI know what it means to keep showing up through pain, disappointment, and exhaustion while helping everyone else keep going. It’s time to put ourselves at the center of our own lives—to make room for our needs, desires, rest, and joy. Sharing this music is one way I’m doing that for myself, while inviting other women to hear the stories behind the words and make room for themselves, too.",
       "connections": [
         {
-          "label": "Substack",
+          "label": "Let’s connect on Substack",
           "url": "https://bklyncustomdesigns.com/karon-substack"
         }
       ]
