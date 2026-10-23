@@ -58,7 +58,7 @@ window.EVENT_DATA = {
           "url": "https://bklyncustomdesigns.com"
         },
         {
-          "label": "LinkedIn",
+          "label": "Let’s connect on LinkedIn",
           "url": "https://bklyncustomdesigns.com/linkedin"
         }
       ],

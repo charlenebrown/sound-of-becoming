@@ -86,3 +86,11 @@ footer .legal-links{flex-basis:100%}
 .listening-room .art-caption{font-size:12px}
 .legal-main+footer>span{font-size:11px}
 .listening-room .button,.listening-room .connect-section .button-row .button{font-size:14px}
+
+/* Platform feedback covers the entire link, for mouse, keyboard and touch. */
+.listening-room .album-access .platform-icon{filter:brightness(0) invert(96%) sepia(9%) saturate(473%) hue-rotate(340deg) brightness(99%)}
+.platform-links a{min-height:44px;-webkit-tap-highlight-color:rgba(227,176,75,.22)}
+.platform-links .platform-icon{transition:transform 150ms ease;transform-origin:center}
+.platform-links a:active .platform-icon,.platform-links a:focus-visible .platform-icon,.platform-links a.touch-active .platform-icon{transform:scale(1.16)}
+@media(hover:hover) and (pointer:fine){.platform-links a:hover .platform-icon{transform:scale(1.16)}}
+@media(prefers-reduced-motion:reduce){.platform-links .platform-icon{transition:none}}

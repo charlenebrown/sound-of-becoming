@@ -36,3 +36,10 @@
  const button=document.querySelector('.discover-album');const result=document.querySelector('.discovery-result');let last=-1;
  button?.addEventListener('click',()=>{const people=(window.EVENT_DATA?.people||[]).filter(p=>p.album);if(!people.length||!result)return;const choices=people.map((p,i)=>i).filter(i=>i!==last);last=choices[Math.floor(Math.random()*choices.length)];const p=people[last];const title=document.createElement('strong');title.textContent=p.album;const name=document.createElement('p');name.textContent='The story of '+p.name+'.';const link=document.createElement('a');link.href=p.slug+'.html';link.textContent='Meet '+p.name.split(' ')[0]+' + explore the album ↗';result.replaceChildren(title,name,link);button.textContent='Discover another album';});
 })();
+
+/* Native touch/pen feedback without intercepting link navigation. */
+(()=>{document.querySelectorAll('.platform-links a').forEach(link=>{
+ let timer;const clear=()=>{clearTimeout(timer);link.classList.remove('touch-active')};
+ link.addEventListener('pointerdown',event=>{if(event.pointerType==='touch'||event.pointerType==='pen'){clearTimeout(timer);link.classList.add('touch-active')}});
+ link.addEventListener('pointerup',()=>{timer=setTimeout(clear,180)});link.addEventListener('pointercancel',clear);link.addEventListener('pointerleave',clear);link.addEventListener('blur',clear);
+});})();
