@@ -8,11 +8,11 @@
  document.querySelectorAll('.song-grid article').forEach((card,index)=>{
   const song=person.songs[index];if(!song)return;
   const wave=card.querySelector('.waveform');if(wave){wave.replaceChildren();for(let i=0;i<43;i++){const bar=document.createElement('i');bar.style.setProperty('--bar-height',(12+Math.sin(i*1.9)**2*42)*Math.sin((i+1)/44*Math.PI)+'px');bar.style.setProperty('--bar-delay',(-i*.11)+'s');bar.style.setProperty('--bar-speed',(.6+(i%5)*.13)+'s');wave.append(bar)}}
-  const controls=document.createElement('div');controls.className='sample-controls';
-  const button=document.createElement('button');button.type='button';button.className='button sample-play';button.textContent='Sample forthcoming';button.disabled=true;button.setAttribute('aria-label','Sample for '+song+' forthcoming');button.setAttribute('aria-pressed','false');
-  const status=document.createElement('span');status.className='sample-status';status.setAttribute('role','status');status.textContent='Clean sample will be added here.';
-  controls.append(button,status);card.append(controls);
   const url=person.sampleUrls?.[index];if(!url)return;
+  const controls=document.createElement('div');controls.className='sample-controls';
+  const button=document.createElement('button');button.type='button';button.className='button sample-play';button.textContent='Play sample';button.disabled=true;button.setAttribute('aria-label','Play sample: '+song);button.setAttribute('aria-pressed','false');
+  const status=document.createElement('span');status.className='sample-status';status.setAttribute('role','status');status.textContent='Ready to listen';
+  controls.append(button,status);card.append(controls);
   let parsed;try{parsed=new URL(url,location.href);if(!['http:','https:','file:'].includes(parsed.protocol))return;if(parsed.origin!==location.origin&&parsed.protocol!=='https:')return;}catch{return}
   const audio=document.createElement('audio');audio.preload='none';audio.src=url;card.append(audio);button.disabled=false;button.textContent='Play sample';button.setAttribute('aria-label','Play sample: '+song);status.textContent='Ready to listen';
   const entry={audio,button,card};players.push(entry);

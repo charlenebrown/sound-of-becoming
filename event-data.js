@@ -31,13 +31,13 @@ window.EVENT_DATA = {
         "Tidal": "https://bklyncustomdesigns.com/digital-flagship-album-tidal",
         "Deezer": "https://bklyncustomdesigns.com/digital-flagship-album-deezer"
       },
-      "status": "Awaiting final copy and links",
+      "status": "Approved final copy",
       "index": 1,
-      "approved": false,
-      "albumTitleConfirmed": false,
+      "approved": true,
+      "albumTitleConfirmed": true,
       "songTitlesConfirmed": true,
       "services": null,
-      "purposeStatus": "Received; Charlene edited for flow",
+      "purposeStatus": "Approved final copy",
       "sampleUrls": [
         "",
         ""
@@ -61,7 +61,8 @@ window.EVENT_DATA = {
           "label": "LinkedIn",
           "url": "https://bklyncustomdesigns.com/linkedin"
         }
-      ]
+      ],
+      "bioApproved": true
     },
     {
       "slug": "shirley-ann-felder",
@@ -90,13 +91,13 @@ window.EVENT_DATA = {
         "Tidal": "https://bklyncustomdesigns.com/ordinary-greatness-tidal",
         "Deezer": "https://bklyncustomdesigns.com/ordinary-greatness-deezer"
       },
-      "status": "Awaiting final copy and links",
+      "status": "Approved final copy",
       "index": 2,
-      "approved": false,
-      "albumTitleConfirmed": false,
+      "approved": true,
+      "albumTitleConfirmed": true,
       "songTitlesConfirmed": true,
       "services": null,
-      "purposeStatus": "Received verbatim; paragraph formatting normalized",
+      "purposeStatus": "Approved final copy",
       "sampleUrls": [
         "",
         ""
@@ -116,7 +117,8 @@ window.EVENT_DATA = {
           "label": "Let’s connect on Facebook",
           "url": "https://bklyncustomdesigns.com/shirley-ann-facebook"
         }
-      ]
+      ],
+      "bioApproved": true
     },
     {
       "slug": "clavia-allen",
@@ -142,13 +144,13 @@ window.EVENT_DATA = {
         "Amazon Music": "https://bklyncustomdesigns.com/chosen-amazon",
         "YouTube Music": "https://bklyncustomdesigns.com/chosen-ytmusic"
       },
-      "status": "Awaiting final copy and links",
+      "status": "Approved final copy",
       "index": 3,
-      "approved": false,
-      "albumTitleConfirmed": false,
+      "approved": true,
+      "albumTitleConfirmed": true,
       "songTitlesConfirmed": true,
       "services": null,
-      "purposeStatus": "Received verbatim; paragraph formatting normalized",
+      "purposeStatus": "Approved final copy",
       "sampleUrls": [
         "",
         ""
@@ -165,7 +167,8 @@ window.EVENT_DATA = {
           "label": "Website ∙ Clavia Allen",
           "url": "https://bklyncustomdesigns.com/clavia-website"
         }
-      ]
+      ],
+      "bioApproved": true
     },
     {
       "slug": "marcy-trueheart",
@@ -194,13 +197,13 @@ window.EVENT_DATA = {
         "Tidal": "https://bklyncustomdesigns.com/birthright-alignment-tidal",
         "Deezer": "https://bklyncustomdesigns.com/birthright-alignment-deezer"
       },
-      "status": "Awaiting final copy and links",
+      "status": "Approved final copy",
       "index": 4,
-      "approved": false,
-      "albumTitleConfirmed": false,
+      "approved": true,
+      "albumTitleConfirmed": true,
       "songTitlesConfirmed": true,
       "services": null,
-      "purposeStatus": "Received verbatim; paragraph formatting normalized",
+      "purposeStatus": "Approved final copy",
       "sampleUrls": [
         "",
         ""
@@ -221,7 +224,8 @@ window.EVENT_DATA = {
           "label": "Let’s connect on Instagram",
           "url": "https://bklyncustomdesigns.com/marcy-instagram"
         }
-      ]
+      ],
+      "bioApproved": true
     },
     {
       "slug": "karon-fayerweather",
@@ -250,13 +254,13 @@ window.EVENT_DATA = {
         "Tidal": "https://bklyncustomdesigns.com/boldly-becoming-her-tidal",
         "Deezer": "https://bklyncustomdesigns.com/boldly-becoming-her-deezer"
       },
-      "status": "Awaiting final copy and links",
+      "status": "Approved final copy",
       "index": 5,
-      "approved": false,
-      "albumTitleConfirmed": false,
+      "approved": true,
+      "albumTitleConfirmed": true,
       "songTitlesConfirmed": true,
       "services": null,
-      "purposeStatus": "Received verbatim; paragraph formatting normalized",
+      "purposeStatus": "Approved final copy",
       "sampleUrls": [
         "",
         ""
@@ -277,7 +281,8 @@ window.EVENT_DATA = {
           "label": "Let’s connect on Substack",
           "url": "https://bklyncustomdesigns.com/karon-substack"
         }
-      ]
+      ],
+      "bioApproved": true
     },
     {
       "slug": "sanah-bittaye-mitchell",
@@ -291,9 +296,9 @@ window.EVENT_DATA = {
       "connectUrl": "https://savvysanah.com/",
       "services": "AI images, videos, and content; branded websites and apps; sales funnels; automations; live virtual experience production.",
       "listen": {},
-      "status": "Bio, headshot and contact links received; final page review pending",
+      "status": "Approved final copy",
       "index": 6,
-      "approved": false,
+      "approved": true,
       "songStories": [
         "",
         ""

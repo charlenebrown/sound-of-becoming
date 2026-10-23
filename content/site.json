@@ -6,13 +6,13 @@
   "endBy": "18:00",
   "websiteDesign": "The Listening Room",
   "keepsakeDesign": "The Becoming Journal",
-  "stage": "waiting-for-content",
-  "publishReady": false,
+  "stage": "final",
+  "publishReady": true,
   "downloadUrls": {
     "keepsake": "https://bklyncustomdesigns.com/sob-keepsake",
     "program": "https://bklyncustomdesigns.com/sob-program"
   },
   "downloadsVerified": false,
-  "approved": false,
+  "approved": true,
   "programVisible": true
 }
