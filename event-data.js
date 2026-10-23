@@ -39,8 +39,8 @@ window.EVENT_DATA = {
       "services": null,
       "purposeStatus": "Approved final copy",
       "sampleUrls": [
-        "",
-        ""
+        "assets/audio/charlene-calm-before-the-breach.mp3",
+        "assets/audio/charlene-blue-red.mp3"
       ],
       "recordingArtist": "Cre8ive Naturalista",
       "platformStatus": {
@@ -99,8 +99,8 @@ window.EVENT_DATA = {
       "services": null,
       "purposeStatus": "Approved final copy",
       "sampleUrls": [
-        "",
-        ""
+        "assets/audio/shirley-ordinary-greatness.mp3",
+        "assets/audio/shirley-takin-out-the-trash.mp3"
       ],
       "recordingArtist": "Shirley Ann Felder",
       "platformStatus": {
@@ -152,8 +152,8 @@ window.EVENT_DATA = {
       "services": null,
       "purposeStatus": "Approved final copy",
       "sampleUrls": [
-        "",
-        ""
+        "assets/audio/clavia-i-am.mp3",
+        "assets/audio/clavia-fam.mp3"
       ],
       "recordingArtist": "Chosen31",
       "platformStatus": {
@@ -205,8 +205,8 @@ window.EVENT_DATA = {
       "services": null,
       "purposeStatus": "Approved final copy",
       "sampleUrls": [
-        "",
-        ""
+        "assets/audio/marcy-our-crowns-never-slip.mp3",
+        "assets/audio/marcy-they-knew-my-name.mp3"
       ],
       "recordingArtist": "Marcy Trueheart",
       "platformStatus": {
@@ -262,8 +262,8 @@ window.EVENT_DATA = {
       "services": null,
       "purposeStatus": "Approved final copy",
       "sampleUrls": [
-        "",
-        ""
+        "assets/audio/karon-center-of-my-own-life.mp3",
+        "assets/audio/karon-the-cape-burning.mp3"
       ],
       "recordingArtist": "Boldly Becoming Her",
       "platformStatus": {
