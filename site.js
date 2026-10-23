@@ -27,3 +27,12 @@
  });
  window.addEventListener('pagehide',()=>players.forEach(p=>p.audio.pause()));
 })();
+
+/* In-page interactions: no analytics, cookies or persistent storage. */
+(()=>{
+ const control=document.querySelector('.motion-toggle');const preference=window.matchMedia('(prefers-reduced-motion: reduce)');
+ function setMotion(paused){document.body.classList.toggle('motion-paused',paused);if(control){control.textContent=paused?'Enable motion':'Pause motion';control.setAttribute('aria-pressed',String(paused))}}
+ setMotion(preference.matches);control?.addEventListener('click',()=>setMotion(!document.body.classList.contains('motion-paused')));preference.addEventListener('change',event=>setMotion(event.matches));
+ const button=document.querySelector('.discover-album');const result=document.querySelector('.discovery-result');let last=-1;
+ button?.addEventListener('click',()=>{const people=(window.EVENT_DATA?.people||[]).filter(p=>p.album);if(!people.length||!result)return;const choices=people.map((p,i)=>i).filter(i=>i!==last);last=choices[Math.floor(Math.random()*choices.length)];const p=people[last];const title=document.createElement('strong');title.textContent=p.album;const name=document.createElement('p');name.textContent='The story of '+p.name+'.';const link=document.createElement('a');link.href=p.slug+'.html';link.textContent='Meet '+p.name.split(' ')[0]+' + explore the album ↗';result.replaceChildren(title,name,link);button.textContent='Discover another album';});
+})();

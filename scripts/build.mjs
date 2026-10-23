@@ -43,3 +43,5 @@ if(site.programVisible===true){
  fs.writeFileSync(programPath,'<!doctype html><html lang="en"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="robots" content="noindex,nofollow"><title>The circle continues</title><body><main><h1>The circle continues.</h1><p>The event program is no longer available.</p><a href="index.html">Explore the stories and keepsake</a></main></body></html>');
  if(fs.existsSync(pdfPath))fs.unlinkSync(pdfPath);
 }
+
+await import('./legal.mjs');
