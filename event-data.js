@@ -23,13 +23,13 @@ window.EVENT_DATA = {
       "purpose": "Music has always been a consistent thread in my life. Over the years, I’ve connected it with ideas that may seem off the beaten path but speak to experiences so many of us share. I had stories, insights, and hopes I wanted to express that didn’t fit naturally into my training, client work, or the books I’ve written.\n\nThis project gave those thoughts another way to be heard. By bringing my words together with rhythm and feeling, I could share my experiences and hopes through the connection only music can create—one that reaches our core and speaks to our spirit. This album is another way for me to tell my story and connect with the people who hear a piece of their own lives in it.",
       "connectUrl": "https://bklyncustomdesigns.com",
       "listen": {
-        "Spotify": "https://open.spotify.com/album/3L3oNA8tklKclo8Op4kSxf",
-        "Apple Music": "https://music.apple.com/us/album/digital-flagship/6818079103",
-        "Amazon Music": "https://music.amazon.com/albums/B0HLQ4WFNF",
-        "YouTube Music": "https://music.youtube.com/playlist?list=OLAK5uy_m6LmiZHxxGSJUvakuBtVJz7CEN1a2WyY0",
-        "iHeart": "https://www.iheart.com/artist/cre8ive-naturalista-50558461/albums/digital-flagship-436813654/",
-        "Pandora": "",
-        "TIDAL": "https://tidal.com/album/566117977"
+        "Spotify": "https://bklyncustomdesigns.com/digital-flagship-album-spotify",
+        "Apple Music": "https://bklyncustomdesigns.com/digital-flagship-album-apple",
+        "Amazon Music": "https://bklyncustomdesigns.com/digital-flagship-album-amazon",
+        "YouTube Music": "https://bklyncustomdesigns.com/digital-flagship-album-ytmusic",
+        "iHeart Radio": "https://bklyncustomdesigns.com/digital-flagship-album-iheart",
+        "Tidal": "https://bklyncustomdesigns.com/digital-flagship-album-tidal",
+        "Deezer": "https://bklyncustomdesigns.com/digital-flagship-album-deezer"
       },
       "status": "Awaiting final copy and links",
       "index": 1,
@@ -44,13 +44,13 @@ window.EVENT_DATA = {
       ],
       "recordingArtist": "Cre8ive Naturalista",
       "platformStatus": {
-        "Spotify": "Direct album identified",
-        "Apple Music": "Direct album identified",
-        "Amazon Music": "Direct album identified",
-        "YouTube Music": "Direct album identified",
-        "iHeart": "Catalog matched; playback availability depends on region/account",
-        "Pandora": "Direct album link not verified",
-        "TIDAL": "Direct album identified"
+        "Spotify": "Pretty link supplied by Charlene on October 23, 2026",
+        "Apple Music": "Pretty link supplied by Charlene on October 23, 2026",
+        "Amazon Music": "Pretty link supplied by Charlene on October 23, 2026",
+        "YouTube Music": "Pretty link supplied by Charlene on October 23, 2026",
+        "iHeart Radio": "Pretty link supplied by Charlene on October 23, 2026",
+        "Tidal": "Pretty link supplied by Charlene on October 23, 2026",
+        "Deezer": "Pretty link supplied by Charlene on October 23, 2026"
       },
       "connections": [
         {
@@ -82,13 +82,13 @@ window.EVENT_DATA = {
       "purpose": "This project meant more to me than I ever imagined. At 60 years old, after a lifetime of using my voice through speaking, coaching, storytelling, and comedy, I never imagined my words would become music! It reminded me that we’re never too old to discover another part of ourselves. I’ve experienced loss, success, failure, and reinvention, and this album gave me another way to turn those life lessons into messages of hope, joy, and encouragement. For me, it wasn’t about becoming a singer. It was about becoming another version of myself.\n\nAnd what made this experience even more special was the community. Marcy, Karan, Clavia, and Charlene are women I connected with through Clubhouse, and I’ve had the pleasure of supporting and celebrating them over the years. To be invited into this experience truly touched my heart. Community means everything to me. My little album could’ve been out here all by its lonesome, but instead, I’m sharing this moment with some amazing women! And if our music touches even one woman and reminds her that she’s not alone and it’s never too late to begin again, then we’ve done something beautiful. I’m just sayin’, we’re not done becoming!",
       "connectUrl": "",
       "listen": {
-        "Spotify": "https://open.spotify.com/album/65uZz2vU9lqyZZIKUQkk3w",
-        "Apple Music": "https://music.apple.com/us/album/ordinary-greatness/6811675391",
-        "Amazon Music": "https://music.amazon.com/albums/B0HJP1B3Q9",
-        "YouTube Music": "https://music.youtube.com/playlist?list=OLAK5uy_lHAV8-0ipCey2Fi2_uRghllFpDma1lwhw",
-        "iHeart": "https://www.iheart.com/artist/shirley-ann-felder-52319569/albums/ordinary-greatness-432306083/",
-        "Pandora": "",
-        "TIDAL": "https://tidal.com/album/560917603"
+        "Spotify": "https://bklyncustomdesigns.com/ordinary-greatness-spotify",
+        "Apple Music": "https://bklyncustomdesigns.com/ordinary-greatness-apple",
+        "Amazon Music": "https://bklyncustomdesigns.com/ordinary-greatness-amazon",
+        "YouTube Music": "https://bklyncustomdesigns.com/ordinary-greatness-ytmusic",
+        "iHeart Radio": "https://bklyncustomdesigns.com/ordinary-greatness-iheart",
+        "Tidal": "https://bklyncustomdesigns.com/ordinary-greatness-tidal",
+        "Deezer": "https://bklyncustomdesigns.com/ordinary-greatness-deezer"
       },
       "status": "Awaiting final copy and links",
       "index": 2,
@@ -103,13 +103,13 @@ window.EVENT_DATA = {
       ],
       "recordingArtist": "Shirley Ann Felder",
       "platformStatus": {
-        "Spotify": "Direct album identified",
-        "Apple Music": "Direct album identified",
-        "Amazon Music": "Direct album identified",
-        "YouTube Music": "Direct album identified",
-        "iHeart": "Catalog matched; playback availability depends on region/account",
-        "Pandora": "Direct album link not verified",
-        "TIDAL": "Direct album identified"
+        "Spotify": "Pretty link supplied by Charlene on October 23, 2026",
+        "Apple Music": "Pretty link supplied by Charlene on October 23, 2026",
+        "Amazon Music": "Pretty link supplied by Charlene on October 23, 2026",
+        "YouTube Music": "Pretty link supplied by Charlene on October 23, 2026",
+        "iHeart Radio": "Pretty link supplied by Charlene on October 23, 2026",
+        "Tidal": "Pretty link supplied by Charlene on October 23, 2026",
+        "Deezer": "Pretty link supplied by Charlene on October 23, 2026"
       }
     },
     {
@@ -131,13 +131,10 @@ window.EVENT_DATA = {
       "purpose": "The Chosen31 album is more than a musical project to me; it is my story in a nutshell, reflecting my roots, my growth, and the hand of God throughout my journey. I have been writing songs since I was young, primarily worship songs and songs of adoration to the Lord, so when this project was presented to me, I was excited to see my story come to life in a way beyond my own voice. Although I may not be the one singing, you can experience me in every part of this project, from where I was born and raised to the experiences that have shaped the woman I am today. Chosen31 is the beginning of something bigger than me, a testament to purpose, identity, and the beautiful ways God can use our stories to inspire others. My prayer is that through this project, people will see pieces of their own journeys, recognize that their stories matter, and above all, give God all the glory!",
       "connectUrl": "",
       "listen": {
-        "Spotify": "",
-        "Apple Music": "https://music.apple.com/us/album/chosen/6811505477",
-        "Amazon Music": "https://music.amazon.com/albums/B0HJNF876D",
-        "YouTube Music": "https://music.youtube.com/playlist?list=OLAK5uy_kPYx-uRcRyJvbsfQGMxzvelvo1dgPboA8",
-        "iHeart": "",
-        "Pandora": "",
-        "TIDAL": ""
+        "Spotify": "https://bklyncustomdesigns.com/chosen-spotify",
+        "Apple Music": "https://bklyncustomdesigns.com/chosen-apple",
+        "Amazon Music": "https://bklyncustomdesigns.com/chosen-amazon",
+        "YouTube Music": "https://bklyncustomdesigns.com/chosen-ytmusic"
       },
       "status": "Awaiting final copy and links",
       "index": 3,
@@ -152,13 +149,10 @@ window.EVENT_DATA = {
       ],
       "recordingArtist": "Chosen31",
       "platformStatus": {
-        "Spotify": "Direct album link not verified",
-        "Apple Music": "Direct album identified",
-        "Amazon Music": "Direct album identified",
-        "YouTube Music": "Direct album identified",
-        "iHeart": "Direct album link not verified",
-        "Pandora": "Direct album link not verified",
-        "TIDAL": "Direct album link not verified"
+        "Spotify": "Pretty link supplied by Charlene on October 23, 2026",
+        "Apple Music": "Pretty link supplied by Charlene on October 23, 2026",
+        "Amazon Music": "Pretty link supplied by Charlene on October 23, 2026",
+        "YouTube Music": "Pretty link supplied by Charlene on October 23, 2026"
       }
     },
     {
@@ -180,13 +174,13 @@ window.EVENT_DATA = {
       "purpose": "My purpose behind this album is to put my words into action—to honor my ancestors, celebrate sisterhood, express my love for my grandson, and honor the healing process. This project gave me the opportunity to turn my experiences, emotions, and spiritual connections into music. Every song carries a piece of my heart, honoring those who came before me while pouring love into those who will come after me.\n\nMy Why Behind the Album\n\nMy why is legacy. The words, energy, and love poured into this project carry something that can live beyond my lifetime. Honoring my ancestors is a huge part of who I am. As I stand on their shoulders, I want future generations to be able to stand on mine.\n\nThrough this album, I am leaving a legacy of love, joy, peace, healing, and service to my community. I want my grandson and generations to come to hear these songs and know who I was, what I believed, and how deeply I loved. Through my obedience to God and my connection with the universe, I believe I am planting seeds of blessings that will continue to bloom for generations.",
       "connectUrl": "",
       "listen": {
-        "Spotify": "https://open.spotify.com/album/0U5jSC23qcgeD4ascm1Vwi",
-        "Apple Music": "https://music.apple.com/us/album/birthright-alignment/6813880416",
-        "Amazon Music": "https://music.amazon.com/albums/B0HKCTJPMD",
-        "YouTube Music": "https://music.youtube.com/playlist?list=OLAK5uy_kv40HxroBXkfdb0XjWz4YLeC2es2t72xw",
-        "iHeart": "https://www.iheart.com/artist/marcy-trueheart-52414615/albums/birthright-alignment-433701774/",
-        "Pandora": "",
-        "TIDAL": "https://tidal.com/album/562477398"
+        "Spotify": "https://bklyncustomdesigns.com/birthright-alignment-spotify",
+        "Apple Music": "https://bklyncustomdesigns.com/birthright-alignment-apple",
+        "Amazon Music": "https://bklyncustomdesigns.com/birthright-alignment-amazon",
+        "YouTube Music": "https://bklyncustomdesigns.com/birthright-alignment-ytmusic",
+        "iHeart Radio": "https://bklyncustomdesigns.com/birthright-alignment-iheart",
+        "Tidal": "https://bklyncustomdesigns.com/birthright-alignment-tidal",
+        "Deezer": "https://bklyncustomdesigns.com/birthright-alignment-deezer"
       },
       "status": "Awaiting final copy and links",
       "index": 4,
@@ -201,14 +195,15 @@ window.EVENT_DATA = {
       ],
       "recordingArtist": "Marcy Trueheart",
       "platformStatus": {
-        "Spotify": "Direct album identified",
-        "Apple Music": "Direct album identified",
-        "Amazon Music": "Direct album identified",
-        "YouTube Music": "Direct album identified",
-        "iHeart": "Catalog matched; playback availability depends on region/account",
-        "Pandora": "Direct album link not verified",
-        "TIDAL": "Direct album identified"
-      }
+        "Spotify": "Pretty link supplied by Charlene on October 23, 2026",
+        "Apple Music": "Pretty link supplied by Charlene on October 23, 2026",
+        "Amazon Music": "Pretty link supplied by Charlene on October 23, 2026",
+        "YouTube Music": "Pretty link supplied by Charlene on October 23, 2026",
+        "iHeart Radio": "Pretty link supplied by Charlene on October 23, 2026",
+        "Tidal": "Pretty link supplied by Charlene on October 23, 2026",
+        "Deezer": "Pretty link supplied by Charlene on October 23, 2026"
+      },
+      "keepsakePurpose": "My why is legacy. This album turns my experiences, emotions, and spiritual connections into music—to honor my ancestors, celebrate sisterhood, express my love for my grandson, and honor the healing process. Every song carries a piece of my heart.\n\nI stand on the shoulders of those who came before me, and I want future generations to stand on mine. Through my obedience to God and connection with the universe, I’m planting seeds of love, joy, peace, healing, and service. I want my grandson and generations to come to hear these songs and know who I was, what I believed, and how deeply I loved."
     },
     {
       "slug": "karon-fayerweather",
@@ -229,13 +224,13 @@ window.EVENT_DATA = {
       "purpose": "This event is personal for me. So much of Boldly Becoming Her comes from things I’ve lived, things I’m still understanding, and words I’ve repeated on multiple occasions and needed to hear in this album.\n\nMy life experiences shaped & grounded me as well as influenced the way I lead and coach other women, especially Black women in midlife; I know what it means to keep showing up while carrying pain, hurt, disappointment, and both physical and emotional fatigue. So many of us have spent years making sure everyone else could keep going, even when we were exhausted ourselves.\n\nIt is time for us to put ourselves at the center of our own lives—to give our needs, desires, rest, and joy a meaningful place in the decisions we make. Sharing this music is one way I’m doing that for myself, and this listening party is playing a huge part in letting the words reach other women, share the stories behind them, and enjoy something I’ve created that is near and dear to my heart.",
       "connectUrl": "",
       "listen": {
-        "Spotify": "",
-        "Apple Music": "https://music.apple.com/us/album/boldly-becoming-her/6814280842",
-        "Amazon Music": "https://music.amazon.com/albums/B0HKG47V5C",
-        "YouTube Music": "https://music.youtube.com/playlist?list=OLAK5uy_mSe3cMkGo3qN5VvEJgj_kArvEsSojWHEE",
-        "iHeart": "https://www.iheart.com/artist/boldly-becoming-her-52439058/albums/boldly-becoming-her-434038377/",
-        "Pandora": "",
-        "TIDAL": "https://tidal.com/album/562828783"
+        "Spotify": "https://bklyncustomdesigns.com/boldly-becoming-her-spotify",
+        "Apple Music": "https://bklyncustomdesigns.com/boldly-becoming-her-apple",
+        "Amazon Music": "https://bklyncustomdesigns.com/boldly-becoming-her-amazon",
+        "YouTube Music": "https://bklyncustomdesigns.com/boldly-becoming-her-ytmusic",
+        "iHeart Radio": "https://bklyncustomdesigns.com/boldly-becoming-her-iheart",
+        "Tidal": "https://bklyncustomdesigns.com/boldly-becoming-her-tidal",
+        "Deezer": "https://bklyncustomdesigns.com/boldly-becoming-her-deezer"
       },
       "status": "Awaiting final copy and links",
       "index": 5,
@@ -250,14 +245,15 @@ window.EVENT_DATA = {
       ],
       "recordingArtist": "Boldly Becoming Her",
       "platformStatus": {
-        "Spotify": "Direct album link not verified",
-        "Apple Music": "Direct album identified",
-        "Amazon Music": "Direct album identified",
-        "YouTube Music": "Direct album identified",
-        "iHeart": "Catalog matched; playback availability depends on region/account",
-        "Pandora": "Direct album link not verified",
-        "TIDAL": "Direct album identified"
-      }
+        "Spotify": "Pretty link supplied by Charlene on October 23, 2026",
+        "Apple Music": "Pretty link supplied by Charlene on October 23, 2026",
+        "Amazon Music": "Pretty link supplied by Charlene on October 23, 2026",
+        "YouTube Music": "Pretty link supplied by Charlene on October 23, 2026",
+        "iHeart Radio": "Pretty link supplied by Charlene on October 23, 2026",
+        "Tidal": "Pretty link supplied by Charlene on October 23, 2026",
+        "Deezer": "Pretty link supplied by Charlene on October 23, 2026"
+      },
+      "keepsakePurpose": "Boldly Becoming Her is personal. These songs hold experiences I’ve lived, lessons I’m still understanding, and words I needed to hear. They also reflect how I lead and coach other women, especially Black women in midlife.\n\nI know what it means to keep showing up through pain, disappointment, and exhaustion while helping everyone else keep going. It’s time to put ourselves at the center of our own lives—to make room for our needs, desires, rest, and joy. Sharing this music is one way I’m doing that for myself, while inviting other women to hear the stories behind the words and make room for themselves, too."
     },
     {
       "slug": "sanah-bittaye-mitchell",

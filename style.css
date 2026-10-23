@@ -35,3 +35,8 @@ body.becoming-journal::before{background-image:url("assets/sound-rings-clay.svg"
 .platform-links .platform-label,.platform-links .platform-pending>span{font-size:13px;opacity:1;margin:0}.platform-links .platform-pending small{font-size:11px;opacity:.8}
 
 .profile-portrait img[alt="Sanah Bittaye Mitchell"]{object-position:center top}
+
+/* Keep personal contact destinations compact and readable. */
+.connect-section .button-row{display:flex;flex-wrap:wrap;align-items:center;gap:.35rem}
+.connect-section .button-row .button{background:none;border:0;padding:.2rem 0;box-shadow:none}
+.contact-separator{padding:0 .25rem}
