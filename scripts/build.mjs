@@ -45,3 +45,8 @@ if(site.programVisible===true){
 }
 
 await import('./legal.mjs');
+
+// Refresh cached assets whenever their content changes.
+const {createHash}=await import('node:crypto');
+const versions=Object.fromEntries(['style.css','site.js','event-data.js'].map(name=>[name,createHash('sha256').update(fs.readFileSync(path.join(root,name))).digest('hex').slice(0,12)]));
+for(const name of fs.readdirSync(root).filter(name=>name.endsWith('.html'))){const file=path.join(root,name);const html=fs.readFileSync(file,'utf8').replace(/(src|href)="(style\.css|site\.js|event-data\.js)(?:\?v=[^"]*)?"/g,(_,attr,asset)=>attr+'="'+asset+'?v='+versions[asset]+'"');fs.writeFileSync(file,html);}
