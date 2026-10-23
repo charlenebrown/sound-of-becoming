@@ -40,3 +40,13 @@ body.becoming-journal::before{background-image:url("assets/sound-rings-clay.svg"
 .connect-section .button-row{display:flex;flex-wrap:wrap;align-items:center;gap:.35rem}
 .connect-section .button-row .button{background:none;border:0;padding:.2rem 0;box-shadow:none}
 .contact-separator{padding:0 .25rem}
+
+/* Homepage portrait badges and matching card captions. */
+.listening-room .card-num{width:34px;height:34px;aspect-ratio:1;display:grid;place-items:center;padding:0;line-height:1;border-radius:50%}
+.listening-room .card-caption p,.listening-room .card-caption>span{font-size:calc(11px + 2pt)}
+.producer-photo{width:100%;max-width:400px;justify-self:center}
+.producer-photo img{width:100%;aspect-ratio:4/5;object-fit:cover;object-position:center top}
+/* Ivory connection panels require crimson links and icons. */
+.listening-room .connect-section .platform-icon{filter:brightness(0) saturate(100%) invert(12%) sepia(28%) saturate(2372%) hue-rotate(306deg) brightness(94%) contrast(101%)}
+.listening-room .connect-section .button-row .button{color:var(--clay);text-decoration:underline;text-underline-offset:4px}
+.listening-room .connect-section .button-row .button:hover{color:var(--deep)}
