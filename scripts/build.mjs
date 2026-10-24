@@ -46,6 +46,9 @@ if(site.programVisible===true){
 
 await import('./legal.mjs');
 
+const {applyEventFooter}=await import('./footer.mjs');
+applyEventFooter(root);
+
 // Refresh cached assets whenever their content changes.
 const {createHash}=await import('node:crypto');
 const versions=Object.fromEntries(['style.css','site.js','event-data.js'].map(name=>[name,createHash('sha256').update(fs.readFileSync(path.join(root,name))).digest('hex').slice(0,12)]));
