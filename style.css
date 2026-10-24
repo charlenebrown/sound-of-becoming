@@ -94,3 +94,13 @@ footer .legal-links{flex-basis:100%}
 .platform-links a:active .platform-icon,.platform-links a:focus-visible .platform-icon,.platform-links a.touch-active .platform-icon{transform:scale(1.16)}
 @media(hover:hover) and (pointer:fine){.platform-links a:hover .platform-icon{transform:scale(1.16)}}
 @media(prefers-reduced-motion:reduce){.platform-links .platform-icon{transition:none}}
+
+/* Approved crimson album artwork treatment. Decorative layers never change card dimensions or intercept controls. */
+.album-access[data-person="charlene-brown"] ~ .featured-songs{--sample-art:url("https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/4c/69/3e/4c693efc-e5db-4658-bbef-9f7b16e01b41/artwork.jpg/600x600bf-60.jpg")}
+.album-access[data-person="shirley-ann-felder"] ~ .featured-songs{--sample-art:url("https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/c9/d2/5a/c9d25a72-9898-9157-dda9-1b6707ac77f9/artwork.jpg/600x600bf-60.jpg")}
+.album-access[data-person="clavia-allen"] ~ .featured-songs{--sample-art:url("https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/d5/76/a8/d576a831-0b19-1517-6c71-35dc6f17c45b/artwork.jpg/600x600bf-60.jpg")}
+.album-access[data-person="marcy-trueheart"] ~ .featured-songs{--sample-art:url("https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/0b/95/44/0b954404-afd1-5f62-697f-6516c7e42730/artwork.jpg/600x600bf-60.jpg")}
+.album-access[data-person="karon-fayerweather"] ~ .featured-songs{--sample-art:url("https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/25/0c/b8/250cb8f3-a738-f315-c86d-52c7ca206cc9/artwork.jpg/600x600bf-60.jpg")}
+.listening-room .song-grid article{isolation:isolate;overflow:hidden;background:#49121f;}
+.listening-room .song-grid article::before{content:"";position:absolute;right:0;top:0;bottom:0;aspect-ratio:1;background:var(--sample-art) center/contain no-repeat;opacity:.24;z-index:-2;pointer-events:none;}
+.listening-room .song-grid article::after{content:"";position:absolute;inset:0;background:linear-gradient(90deg,rgba(73,18,31,.97),rgba(73,18,31,.84) 35%,rgba(73,18,31,.30));z-index:-1;pointer-events:none;}
