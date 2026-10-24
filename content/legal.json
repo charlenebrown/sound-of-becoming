@@ -9,7 +9,7 @@
       ],
       [
         "Browsing and listening",
-        "You can browse this site without creating an account or submitting personal information. The site itself currently has no sign-up forms, advertising trackers, analytics scripts or marketing cookies. Audio samples, when added, are served as media files from the website; playback does not automatically open a music-service account or subscribe you to anything."
+        "You can browse and listen without creating an account. With your optional analytics permission, we use Google Analytics 4 to measure visits, page sections, sample playback, album and connection clicks, and program or keepsake download clicks. Microsoft Clarity provides interaction heatmaps and session replays to help us understand how visitors use the site. These tools may process device, browser, page, interaction and network information under their own policies. We do not send names or email addresses supplied by visitors as custom analytics fields. Download clicks measure the request, not proof that a file was saved; album clicks do not confirm a stream or purchase."
       ],
       [
         "Hosting information",
@@ -17,7 +17,7 @@
       ],
       [
         "Controls and preferences",
-        "The motion control, album discovery feature and sample players work within the current page. We do not save those interactions in cookies or browser storage, and we do not use them to build a listener profile."
+        "Optional event analytics starts after analytics consent. When this site is embedded at Bklyn Custom Designs®, the surrounding page supplies your analytics preference; use Analytics preferences in the footer to change it. On the direct GitHub website, choose Allow analytics or No thanks; your choice is saved in browser storage for up to a year and can be changed in the footer. Supported Global Privacy Control signals disable optional event analytics. Declining optional analytics does not prevent music playback. Clarity and Google may use cookies or similar technologies after permission. See <a href=\"https://privacy.microsoft.com/privacystatement\">Microsoft’s privacy statement</a> and <a href=\"https://policies.google.com/privacy\">Google’s privacy policy</a>."
       ],
       [
         "Links, redirects and downloads",

@@ -104,3 +104,8 @@ footer .legal-links{flex-basis:100%}
 .listening-room .song-grid article{isolation:isolate;overflow:hidden;background:#49121f;}
 .listening-room .song-grid article::before{content:"";position:absolute;right:0;top:0;bottom:0;aspect-ratio:1;background:var(--sample-art) center/contain no-repeat;opacity:.24;z-index:-2;pointer-events:none;}
 .listening-room .song-grid article::after{content:"";position:absolute;inset:0;background:linear-gradient(90deg,rgba(73,18,31,.97),rgba(73,18,31,.84) 35%,rgba(73,18,31,.30));z-index:-1;pointer-events:none;}
+/* Optional analytics controls stay readable without interrupting listening. */
+.sob-analytics-settings{background:transparent;color:inherit;border:1px solid currentColor;padding:8px 12px;font:14px Arial;cursor:pointer;min-height:44px;}
+#sob-analytics-choice{position:fixed;bottom:16px;left:16px;right:16px;max-width:620px;background:#f5ead4;color:#49121f;padding:22px;z-index:2147483000;box-shadow:0 8px 35px #0007;font:15px/1.5 Arial;border:1px solid #49121f;}
+#sob-analytics-choice button{background:#49121f;color:#f5ead4;border:1px solid #49121f;padding:12px 16px;margin:14px 12px 0 0;cursor:pointer;font:15px Arial;min-height:44px;}
+#sob-analytics-choice a{display:inline-block;text-decoration:underline;font-size:14px;}
