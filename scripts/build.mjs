@@ -26,7 +26,7 @@ for(const p of profiles){
 }
 const programVisible=site.programVisible===true;
 const programSection=programVisible?'<section class="program-section" id="program"><div><p class="eyebrow">THE EVENING</p><h2>The evening<br>unfolds.</h2><p>Five stories. A shared vision.</p></div><div><a class="button" href="program.html">View the evening program ↗</a></div></section>':'';
-const homeValues={REVIEW_BANNER:banner,PROGRAM_SECTION:programSection,PROGRAM_DOWNLOAD_LINK:programVisible?'<a class="button secondary" href="program.html">View the evening program ↗</a><a class="button secondary" href="https://bklyncustomdesigns.com/sob-program">Download the program PDF ↗</a>':''};for(const p of profiles)if(p.album)homeValues['ALBUM_'+p.slug]=esc(p.album);
+const homeValues={REVIEW_BANNER:banner,PROGRAM_SECTION:programSection,PROGRAM_DOWNLOAD_LINK:programVisible?'<a class="button secondary" href="program.html">View the evening program ↗</a><a class="button secondary" href="https://charlenebrown.github.io/sound-of-becoming/downloads/Sound%20of%20Becoming%20Event%20Program.pdf">Download the program PDF ↗</a>':''};for(const p of profiles)if(p.album)homeValues['ALBUM_'+p.slug]=esc(p.album);
 fs.writeFileSync(path.join(root,'index.html'),finish(fs.readFileSync(path.join(root,'templates/index.html'),'utf8'),homeValues));
 fs.writeFileSync(path.join(root,'event-data.js'),'window.EVENT_DATA = '+JSON.stringify({downloadUrls:site.downloadUrls,people:profiles},null,2)+';\n');
 console.log('Built website: home + '+profiles.length+' profiles. Final approved copy: '+publicReady+'.');

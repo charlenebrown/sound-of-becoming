@@ -6,6 +6,7 @@ export function applyEventFooter(root){
   const p=path.join(root,name);let h=fs.readFileSync(p,'utf8').replace(/<footer[\s\S]*?<\/footer>/,footer);
   // Keep the final two words together in prose, without forcing whole paragraphs onto one line.
   h=h.replace(/(<(?:p|h[1-6]|li|figcaption)[^>]*>)([\s\S]*?)(<\/(?:p|h[1-6]|li|figcaption)>)/g,(_,a,b,c)=>a+b.replace(/([^\s<>]+)[ \t]+([^\s<>]+)((?:\s*<\/[^>]+>)*\s*)$/, '$1\u00a0$2$3')+c);
+  h=h.replace(/<a\b([^>]*?)href="(https?:[^"]+|downloads\/[^"]+\.pdf)"([^>]*)>/g,(_,before,url,after)=>'<a'+before+'href="'+url+'"'+(after.replace(/\s+(?:target|rel)="[^"]*"/g,''))+' target="_blank" rel="noopener noreferrer">');
   fs.writeFileSync(p,h);
  }
 }

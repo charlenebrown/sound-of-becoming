@@ -1,7 +1,7 @@
 window.EVENT_DATA = {
   "downloadUrls": {
-    "keepsake": "https://bklyncustomdesigns.com/sob-keepsake",
-    "program": "https://bklyncustomdesigns.com/sob-program"
+    "keepsake": "https://charlenebrown.github.io/sound-of-becoming/downloads/Sound%20of%20Becoming%20Keepsake.pdf",
+    "program": "https://charlenebrown.github.io/sound-of-becoming/downloads/Sound%20of%20Becoming%20Event%20Program.pdf"
   },
   "people": [
     {
